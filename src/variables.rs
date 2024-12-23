@@ -1,7 +1,10 @@
 fn main() {
-    println!("Hello world");
+    let mut y = 15;
+    println!("y is: {}", y);
+    y = 10;
+    println!("y is: {}", y);
 
-    let x = 6;
+    let x = 6; 
     println!("x is: {}", x);
 
     {
