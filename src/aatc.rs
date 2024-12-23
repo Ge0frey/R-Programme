@@ -13,5 +13,12 @@ fn main() {
 
     let u = v/(p as i64); //type casting using the as keyword
     println!("{}", u);
+
+    //integer input
+    let mut input = String::new();
+    io::stdin().read_line(&mut input).expect("Expected to read line");
+
+    let int_input:i32 = input.trim().parse().unwrap();
+    println!("{}", int_input + 2);
  
 }
